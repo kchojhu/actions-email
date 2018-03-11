@@ -5,10 +5,11 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import {MaterialModule} from './material.module';
+import {HeaderComponent} from './navigation/header/header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, HeaderComponent
   ],
   imports: [
     BrowserModule, FlexLayoutModule, BrowserAnimationsModule, MaterialModule

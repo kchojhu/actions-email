@@ -5,7 +5,8 @@
   "scripts": {
     "ng": "ng",
     "hostlookup": "nslookup $C9_HOSTNAME",
-    "start": "npm run hostlookup && ng serve --host 0.0.0.0 --port $C9_PORT --disableHostCheck true",
+    "start": "npm run hostlookup && ng serve -sm -ec --host 0.0.0.0 --port $C9_PORT --disableHostCheck true",
+    "local": "ng serve -sm -ec",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",

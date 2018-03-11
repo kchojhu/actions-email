@@ -1,0 +1,2 @@
+// creates component without changing the modules
+ng g c navigation/header/header --skip-import
